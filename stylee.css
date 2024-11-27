@@ -251,7 +251,7 @@ ul li a:hover {
   text-decoration: underline;
 }
 .map-section iframe {
-  width: 400px;
+  max-width: 400px;
   height: 300px;
   border: none;
 }
@@ -301,12 +301,13 @@ ul li a:hover {
   margin-bottom: 30px;
 }
 .success-content div {
-  width: 400px;
+  max-width: 400px;
 }
 
 /* ------------------------------footer---------------------------- */
 
 footer p {
+  font-size: smaller;
   text-align: center;
   margin-bottom: 70px;
 }
@@ -424,6 +425,11 @@ footer p {
     margin-bottom: 70px;
     margin-top: 70px;
   }
+  .map-section iframe {
+    max-width: 350px;
+    height: 300px;
+    border: none;
+  }
 
   /* ------------------------success section -------------*/
 
@@ -439,5 +445,13 @@ footer p {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .success-content div {
+    max-width: 350px;
+  }
+  footer p {
+    font-size: x-small;
+    text-align: center;
+    margin-bottom: 70px;
   }
 }
